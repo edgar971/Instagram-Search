@@ -1,0 +1,192 @@
+{
+  "id": "5bc6976d",
+  "cfgVersion": 1,
+  "name": "Learning Ajax",
+  "files": {
+    "be0162ee": {
+      "id": "be0162ee",
+      "pid": "5bc6976d",
+      "name": "all.js",
+      "input": "files/js/all.js",
+      "customOutput": "files/js/all.min.js",
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": false,
+        "sourcemaps": false
+      }
+    },
+    "e1655e86": {
+      "id": "e1655e86",
+      "pid": "5bc6976d",
+      "name": "main.scss",
+      "input": "files/css/main.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": true,
+        "fullCompass": false,
+        "outputStyle": "compressed",
+        "autoprefixer": true
+      }
+    }
+  },
+  "imports": {
+    "f4f9a513": {
+      "id": "f4f9a513",
+      "pid": "5bc6976d",
+      "path": "files/js/components/template/default.js",
+      "parents": [
+        "be0162ee"
+      ]
+    },
+    "a43e5160": {
+      "id": "a43e5160",
+      "pid": "5bc6976d",
+      "path": "files/js/components/template/_modernizr.js",
+      "parents": [
+        "be0162ee"
+      ]
+    },
+    "a70e59af": {
+      "id": "a70e59af",
+      "pid": "5bc6976d",
+      "path": "files/js/components/template/_selectivizr.js",
+      "parents": [
+        "be0162ee"
+      ]
+    },
+    "bdc62ee0": {
+      "id": "bdc62ee0",
+      "pid": "5bc6976d",
+      "path": "files/js/components/template/_functions.js",
+      "parents": [
+        "be0162ee"
+      ]
+    },
+    "7f342605": {
+      "id": "7f342605",
+      "pid": "5bc6976d",
+      "path": "files/js/components/template/_jquery.js",
+      "parents": [
+        "be0162ee"
+      ]
+    },
+    "44cc5084": {
+      "id": "44cc5084",
+      "pid": "5bc6976d",
+      "path": "files/css/components/template/default.scss",
+      "parents": [
+        "e1655e86"
+      ]
+    },
+    "0b62567d": {
+      "id": "0b62567d",
+      "pid": "5bc6976d",
+      "path": "files/css/components/site/site.scss",
+      "parents": [
+        "e1655e86"
+      ]
+    },
+    "0872a04f": {
+      "id": "0872a04f",
+      "pid": "5bc6976d",
+      "path": "files/css/components/site/_components.scss",
+      "parents": [
+        "e1655e86"
+      ]
+    },
+    "beba03c5": {
+      "id": "beba03c5",
+      "pid": "5bc6976d",
+      "path": "files/css/components/site/_header-main.scss",
+      "parents": [
+        "e1655e86"
+      ]
+    },
+    "9a501a43": {
+      "id": "9a501a43",
+      "pid": "5bc6976d",
+      "path": "files/css/components/site/_content-main.scss",
+      "parents": [
+        "e1655e86"
+      ]
+    },
+    "95e3c08e": {
+      "id": "95e3c08e",
+      "pid": "5bc6976d",
+      "path": "files/css/components/site/_footer-main.scss",
+      "parents": [
+        "e1655e86"
+      ]
+    },
+    "1d2eff60": {
+      "id": "1d2eff60",
+      "pid": "5bc6976d",
+      "path": "files/css/components/site/_responsive.scss",
+      "parents": [
+        "e1655e86"
+      ]
+    },
+    "7a14fe1f": {
+      "id": "7a14fe1f",
+      "pid": "5bc6976d",
+      "path": "files/js/components/project/site.js",
+      "parents": [
+        "be0162ee"
+      ]
+    }
+  },
+  "images": {
+    "1a096ed9": {
+      "id": "1a096ed9",
+      "pid": "5bc6976d",
+      "path": "files/images/island.jpg",
+      "size": 527891,
+      "name": "island.jpg",
+      "type": "Jpg",
+      "initialSize": 527891,
+      "status": "NOT_OPTIMIZED"
+    }
+  },
+  "config": {
+    "watch": true,
+    "liveRefresh": true,
+    "liveRefreshDelay": 0,
+    "filterPatterns": "",
+    "useCustomServer": false,
+    "customServerUrl": "",
+    "cssPath": "css/",
+    "jsPath": "js/",
+    "htmlPath": "html/",
+    "minJsPath": "min/",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "",
+    "ftpPort": "21",
+    "ftpRemotePath": "",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpSecure": false,
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}

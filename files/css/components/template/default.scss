@@ -1,0 +1,161 @@
+	//This file is for default style page elements Updated: July 16 , 2014
+	//Import Erick Meyer Reset -  Clean slate 
+	@import 'compass';
+/* 	@import 'components/template/reset.scss'; */
+	@import "compass/reset";
+	//modern colors 
+	@import 'components/template/colors.scss';
+	
+	/*
+	load fonts 
+	font-family: 'Arvo', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Allerta', sans-serif;
+	*/
+	// load fonts http://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html
+	@import 'http://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:400italic,400,300,600,700|Allerta';
+	
+	
+	//Variables
+	//media querie variables http://bradfrostweb.com/blog/post/7-habits-of-highly-effective-media-queries/#overboard
+	$smallBP: 24em;
+	$smallBP2: 29.75em;
+	$smallBP3: 39.8em;
+	$mediumBP: 46.8em;
+	$mediumBP2: 48em;
+	$largeBP: 50em;
+	$largeBP2: 54.5em;
+	$xlargeBP: 60em;
+	$xlargeBP2: 67em;
+	
+
+
+
+
+	//site wide styles 
+
+	//better margin and padding management http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ 	*, *:before, *:after {
+	 	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  	}
+	body {
+		background: $white;
+		color: $black;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1em;
+		line-height: 1.375em;
+		font-weight: 400;
+	
+	}
+	.container {
+		padding: 1em .25em;
+		width: 60em;
+		margin: auto;
+	}
+	img {
+		width: 100%;
+	}
+	//better font size http://typecast.com/blog/a-more-modern-scale-for-web-typography
+	strong {
+		font-weight: bold;
+		color: black;
+	}
+	small {
+		font-weight: 300;
+		font-size: .9em;
+	}
+	h1,h2,h3,h4,h5,h6 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+	}
+	h1 {
+		font-size: 3em;
+		line-height: 1.05em;
+	}
+	h2 {
+		font-size: 2.25em;
+		line-height: 1.25em;
+	}
+	h3 {
+		font-size: 1.75em;
+		line-height: 1.25em;
+	}
+	h4 {
+		font-size: 1.125em;
+		line-height: 1.22222222em;
+	}
+	blockquote {
+		font-size: 1.5em;
+		line-height: 1.45833333em;
+	}
+	hr {
+		border: solid 1px $gray;
+	}
+	//Responsive code here
+@media all and (max-width: $xlargeBP) {
+    
+    body {
+    }
+    
+    .container {
+    	width: 100%;
+    }
+    		
+    
+    
+    
+}
+//large
+@media all and (max-width: $largeBP) {
+    body {
+    	line-height: 1.25em;
+    	
+    }
+    
+    .container {
+    	padding: .5em .75em;
+    }
+    h1 {
+    	font-size: 2.5em;
+    	line-height: 1.125em;
+    }
+    h2 {
+    	font-size: 2em;
+    	
+    }
+    h3 {
+    	font-size: 1.5em;
+    	
+    }
+    blockquote {
+    	font-size: 1.25em;
+    	line-height: 1.25em;
+    }
+}
+//medium 
+@media all and (max-width: $mediumBP) {
+    body {
+    }
+   
+    h1 {
+    	font-size: 2em;
+    	line-height: 1.25em;
+    }
+    h2 {
+    	font-size: 1.625em;
+    	line-height: 1.15384615em;
+    }
+    h3 {
+    	font-size: 1.375em;
+    	line-height: 1.13636364em;
+    }
+    h4 {
+    	line-height: 1.11111111em;
+    }
+}
+ 
+//small
+@media all and (max-width: $smallBP) {
+    body {
+    }
+}

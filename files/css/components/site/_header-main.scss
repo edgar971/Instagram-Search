@@ -1,0 +1,34 @@
+/* Code for site main header and nav here */
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(180deg);
+	}
+}
+.spin, .spin-img {
+	animation: spin ease 1s infinite;
+	animation-fill-mode: forwards;
+    animation-play-state: paused;
+
+}
+.spin-stop {
+    animation-play-state: paused;
+}
+
+.spin-play {
+    animation-play-state: running;
+}
+#header-main {
+	text-align: center;
+	color: white;
+	
+	[alt="loader"] {
+		width: 40px;
+		color: white;
+	}
+	
+} 
+/* end of #mainHeader */

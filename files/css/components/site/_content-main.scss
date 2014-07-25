@@ -1,0 +1,49 @@
+/* Code for main content here */
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+	}
+
+#content-main {
+		.container {
+		//for users
+		.searchUser {
+			width: 50%;
+			margin: auto;
+			display: block;
+			border: none;
+			padding: .5em;
+			font-size: 1.5em;
+			background: #eeeeee;
+		}
+		.searchUser:focus {
+			outline: none;
+		}
+		.results {
+			margin: 2em 0;
+			.users {
+				
+				display: flex;
+				flex-wrap: wrap;
+				align-items: flex-start ;
+				li {
+					animation: fade ease 1s;
+					margin: 1em 0;
+					padding: .5em;
+					width: 20%;
+
+				}
+			}			
+			
+			
+		
+		}
+	}
+
+
+} 
+/* end of #mainContent */
