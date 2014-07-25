@@ -1,7 +1,7 @@
 {
   "id": "5bc6976d",
   "cfgVersion": 1,
-  "name": "Learning Ajax",
+  "name": "Instagram Search",
   "files": {
     "be0162ee": {
       "id": "be0162ee",
@@ -62,6 +62,14 @@
         "be0162ee"
       ]
     },
+    "7f342605": {
+      "id": "7f342605",
+      "pid": "5bc6976d",
+      "path": "files/js/components/template/_jquery.js",
+      "parents": [
+        "be0162ee"
+      ]
+    },
     "bdc62ee0": {
       "id": "bdc62ee0",
       "pid": "5bc6976d",
@@ -70,10 +78,10 @@
         "be0162ee"
       ]
     },
-    "7f342605": {
-      "id": "7f342605",
+    "7a14fe1f": {
+      "id": "7a14fe1f",
       "pid": "5bc6976d",
-      "path": "files/js/components/template/_jquery.js",
+      "path": "files/js/components/project/site.js",
       "parents": [
         "be0162ee"
       ]
@@ -133,25 +141,37 @@
       "parents": [
         "e1655e86"
       ]
-    },
-    "7a14fe1f": {
-      "id": "7a14fe1f",
-      "pid": "5bc6976d",
-      "path": "files/js/components/project/site.js",
-      "parents": [
-        "be0162ee"
-      ]
     }
   },
   "images": {
-    "1a096ed9": {
-      "id": "1a096ed9",
+    "e4398199": {
+      "id": "e4398199",
       "pid": "5bc6976d",
-      "path": "files/images/island.jpg",
-      "size": 527891,
-      "name": "island.jpg",
+      "path": "files/css/images/spinner.png",
+      "size": 1049,
+      "name": "spinner.png",
+      "type": "Png",
+      "initialSize": 1049,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2614181d": {
+      "id": "2614181d",
+      "pid": "5bc6976d",
+      "path": "files/images/large.jpg",
+      "size": 16801540,
+      "name": "large.jpg",
       "type": "Jpg",
-      "initialSize": 527891,
+      "initialSize": 16801540,
+      "status": "NOT_OPTIMIZED"
+    },
+    "365bea4c": {
+      "id": "365bea4c",
+      "pid": "5bc6976d",
+      "path": "files/images/small.jpg",
+      "size": 15457,
+      "name": "small.jpg",
+      "type": "Jpg",
+      "initialSize": 15457,
       "status": "NOT_OPTIMIZED"
     }
   },

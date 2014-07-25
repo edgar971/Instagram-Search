@@ -11,7 +11,7 @@ Access token http://jelled.com/instagram/access-token
 									<img src="' + b.profile_picture +'" alt="profile picture">
 
 
-*/
+*/ 
 
 
 $(document).ready(function(){
@@ -55,7 +55,7 @@ var usercontainer = document.createElement('ul'),
 						//add user info
 						$(user).html(
 							'<a href="#' + b.username + '"data-user-id="' + b.id + '" data-user-img="' + b.profile_picture + '">
-							<img src="/files/css/images/loader.gif"  alt="loader">
+							<img src="../../files/css/images/loader.gif"  alt="loader">
 							<p><strong>Username: </strong>' + b.username + '</p>
 							<p><strong>Full Name: </strong>' + b.full_name + '</p>
 							<p><strong>User ID: </strong>'+ b.id +'</p>
